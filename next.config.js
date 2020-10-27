@@ -1,1 +1,5 @@
-module.exports = {};
+module.exports = {
+  env: {
+    API_URL: 'http://localhost:4300'
+  }
+};
