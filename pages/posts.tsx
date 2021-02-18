@@ -53,7 +53,7 @@ export default function Posts({ posts: serverPosts }: PostsPageProps) {
   );
 }
 
-export async function getServerSideProps({ query, req }: PostNextPageContext) {
+export async function getServerSideProps({ query, req }: NextPageContext) {
   if (!req) {
     return { posts: null };
   }
